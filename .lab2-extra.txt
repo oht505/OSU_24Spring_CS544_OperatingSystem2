@@ -1,0 +1,43 @@
+# extra credit #
+
+
+
+1. showmappings
+
+Type)
+
+showmappings 0xLowAddr 0xHighAddr
+
+e.g) showmappings 0xf0000000 0xf0004000
+
+
+
+
+2. change permission
+
+Type)
+
+cmemp 0xAddr [1/0] [p/w/u]  
+
+i.e) the order of [p/w/u] can be changed
+e.g) 0xf0000000 - P:1 W:2 U:0
+     
+     cmemp 0xf0000000 0 pwu => P:0 w:0 U:0
+     cmemp 0xf0000000 1 uwp => p:1 w:2 U:4
+
+
+
+3. memory dump
+
+Type)
+
+memdump 0xLowAddr 0xHighAddr
+
+e.g) memdump 0xf010000c 0xf0100020
+
+	=> Vaddr: ~ , Paddr: ~, 16 bytes data will appear
+
+
+
+Thanks. 
+

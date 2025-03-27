@@ -1,0 +1,15 @@
+Challenge (Extra credit 1%). Enhance the console to allow text to be printed in
+different colors. The traditional way to do this is to make it interpret ANSI escape
+sequences embedded in the text strings printed to the console, but you may use any
+mechanism you like. There is plenty of information on the cs444/544 useful links page
+(Canvas->Useful Links) and elsewhere on the web on programming the VGA display
+hardware. If you’re feeling really adventurous, you could try switching the VGA
+hardware into a graphics mode and making the console draw text onto the graphical
+frame buffer.
+To get 1% of credit, please create a command ‘show’ in the monitor and print a beautiful
+ASCII Art with 5 or more colors when the command is typed on the console.
+Once you finish this, please create a file .lab1-extra at the root of your repository
+directory (under jos-labs-[username]/). We will use that file as an indicator that you
+finished this extra-credit and then grade your work accordingly.
+
+  When the word "show" is typed, the program will show 6 colors (Yellow ~ Blue). 
